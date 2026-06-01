@@ -1,0 +1,4 @@
+/* Compatibility entrypoint: some local checkouts/imports reference ./style.css.
+   Keep the actual stylesheet in styles.css and forward this path so the dev server
+   no longer returns 404 for /src/style.css. */
+@import './styles.css';
